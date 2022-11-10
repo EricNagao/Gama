@@ -21,19 +21,36 @@ Critério:
 */
 
 
-let qtdalunos = Number(prompt("Digite a quantidade de alunos: "))
-let nome = prompt("Qual o nome do aluno: ") 
-let matricula = prompt("Qual a matricula do aluno: ") 
-let notas = prompt("Qual a nota do aluno: ") 
-i=""
+var listaDeAlunos = []
+class aluno{}
 
+const menu = () {
+    sistemaescola = prompt(`Escolha a opção abaixo
+    1. Cadastrar o aluno
+    2. Exibir os dados do aluno
+    3. Para sair
+    `) 
+        switch(sistemaescola){
+                case "1":
+                    aluno.qtdalunos = Number(prompt("Digite a quantidade de alunos a ser cadastrado: "))
+                    aluno.nome = prompt("Qual o nome do aluno: ") 
+                    aluno.matricula = prompt("Qual a matricula do aluno: ") 
+                    aluno.notas = Number(prompt("Qual a nota do aluno: ")) 
+                    i=""
+                    
+                    for (i=1; i>qtdalunos; i++){
+                    const array_name = [nome, matricula, notas];      
+                    }
+                break;
 
-for (i=1; i>qtdalunos; i++){
+                case "2":
+                alert("Qual a matricula do aluno: ") 
+                break;
 
-    if()
-
-
+                case "3":
+                alert("Exit")
+            break;
+        default:
+    }
 }
-
-
 </script>
